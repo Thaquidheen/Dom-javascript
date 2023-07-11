@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: bisque;
+}
+
+.container{
+    margin-top: 50px;
+}
+.title{
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+
+}
+.kitchen-Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+#bttn{
+    cursor: pointer;
+    height: 42px;
+    background-color: green;
+    color: white;
+    outline: none;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 18px;
+
+}
+
+#kitchen-input{
+    border: 1px solid rgb(169, 169, 204);
+    border-radius: 5px;
+    height: 42px;
+    outline: none;
+
+    font-size: 18PX;
+}
+.items{
+    display: flex;
+    justify-content: center;
+}
+#kitchen-items-list{
+     margin: 10px;
+     list-style: none;
+}
+
+li{
+    height: 40px;
+    background-color: rgb(62, 86, 107);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 18px;
+    animation: 0.3s ease-in-out;
+
+ 
+}
+
+
+@keyframes slideIn{
+    from{
+        opacity: 0;
+        transform: rotateX(60deg) translateY(-10px);
+    }
+    to{
+         opacity: 1;
+         transform: rotateX(0deg) translateY(0px);
+    }
+}
