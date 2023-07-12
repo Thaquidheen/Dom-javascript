@@ -66,10 +66,12 @@ li{
     padding: 10px 15px;
     font-size: 18px;
     animation: 0.3s ease-in-out;
-
- 
+    display: flex;
+    justify-content: space-between;
 }
-
+i{
+    cursor: pointer;
+}
 
 @keyframes slideIn{
     from{
